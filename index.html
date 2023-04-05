@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="fContainer">
+
+        <!-- Start Navbar -->
+        <nav class="wrapper">
+            <div class="Brand">
+                <div class="firstname">Vannes</div>
+                <div class="lastname">.</div>
+            </div>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="Portofolio.html">Portofolio</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+            </ul>
+            <div class="chat">
+                <button onclick="data_chat()" class="letschat">Let's Chat</button>
+                <script>
+                    function data_chat(){
+                        alert("Mohon maaf untuk sementara Chat di non-aktifkan karena sibuk kuliah :)")
+                    }
+                </script>
+            </div>
+        </nav>
+        <!-- End Navbar -->
+
+
+        <!-- Start Isi -->
+        <div class="containerisi">
+            <div class="wrapper-isi">
+                <div class="wrapper-intro">
+                    <div class="intro1">
+                        <h1 class="h1-intro1"> Hey! I Am <br>Vannes</h1>
+                        <p>Front-End/UI Designer specialist for 1 year so far</p>
+                        <div class="button">
+                            <button onclick="data_hire()" class="hire"> Hire Me </button>
+                            <script>
+                                function data_hire(){
+                                    alert("Untuk melakukan perekrutan, anda dapat menghubungi Nezli2808@gmail.com")
+                                }
+                            </script>
+                            <button onclick="data_knowmore()" class="Knowmore"> Know More </button>
+                            <script>
+                                function data_knowmore(){
+                                    alert("Anda dapat menghubungi secara personal melalui whatsapp dengan nomor berikut 082215282696")
+                                }
+                            </script>
+                        </div>
+                        <div class="internship">
+                            <img src="assets/skilvul logo.png" width=80px" height="80px"/>
+                            <p>Currently Intern as Front End Web Development at Skilvul</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="wrapper-intro2">
+                    <div class="intro2">
+                        <img src="assets/vannes.jpg" width="650px" height="1000px">
+                    </div>
+                </div>
+            </div>
+        <!-- What I do -->
+        <div class="WID">
+            <h1 class="h1_WID">Project <br>Statistic 2023</h1>
+            <div class="inner-WID">
+                <div class="WID-FE">
+                    <h1 class="h1_fe">Front End Web Developer</h1>
+                    <p class="p1">Implementation Front-End From Design <br> React JS Implementation <br> Laravel Implementation <br> JavaScript Function</p>
+                </div>
+                <div class="WID-UI">
+                    <h1 class="h1_ui">UI Designer</h1>
+                    <p class="p1">Advertisement Product Design <br> E-commerce Product Design <br> Internship Website Design </p>
+                </div>
+            </div>
+        </div>
+        </div>
+        
+        <!-- End What I do  -->
+        <!-- End Isi -->
+        
+    </div>
+</body>
+</html>
