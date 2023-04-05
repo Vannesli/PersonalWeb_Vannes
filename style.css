@@ -48,6 +48,7 @@
     align-items: center;
     cursor: pointer;
 }
+
 .letschat:hover{
     background-color: gray;
     color:white;
